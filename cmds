@@ -2,11 +2,13 @@
 
 ## Simple Commands
 <BODY>
-find . -name "*" -type file -exec grep -i "abcd" {} \;
-sudo netstat -tunlpa
-top -> select process --> H --> take child process ID --> convert to hexa code --> kill -3 pid --> search for hexa code
-watch "ps -ef |grep -i java"
-while true; do echo "`date`";done
+<Table>
+<tr><td>find . -name "*" -type file -exec grep -i "abcd" {} \;</td></tr>
+<tr><td>sudo netstat -tunlpa</td></tr>
+<tr><td>top -> select process --> H --> take child process ID --> convert to hexa code --> kill -3 pid --> search for hexa code</td></tr>
+<tr><td>watch "ps -ef |grep -i java"</td></tr>
+<tr><td>while true; do echo "`date`";done</td></tr>
+</table>
 </BODY>
 
 </HTML>
