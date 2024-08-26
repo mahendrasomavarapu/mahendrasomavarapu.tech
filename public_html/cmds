@@ -1,0 +1,6 @@
+## Simple Commands
+find . -name "*" -type file -exec grep -i "abcd" {} \;
+sudo netstat -tunlpa
+top -> select process --> H --> take child process ID --> convert to hexa code --> kill -3 pid --> search for hexa code
+watch "ps -ef |grep -i java"
+while true; do echo "`date`";done
